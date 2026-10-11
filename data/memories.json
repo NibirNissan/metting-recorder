@@ -1,0 +1,96 @@
+[
+  {
+    "id": "mem-1791469064282-aqhs",
+    "content": "client Acme CEO changed his review time to Friday 2 PM",
+    "category": "Client",
+    "tags": [
+      "Client",
+      "Chat Saved"
+    ],
+    "createdAt": "2026-10-08T14:17:44.282Z",
+    "source": "chat_remember",
+    "pinned": false
+  },
+  {
+    "id": "mem-1791468867169-eisz",
+    "content": "staging server credentials were updated by David",
+    "category": "Deadline",
+    "tags": [
+      "Deadline",
+      "Chat Saved"
+    ],
+    "createdAt": "2026-10-08T14:14:27.169Z",
+    "source": "chat_remember",
+    "pinned": false
+  },
+  {
+    "id": "mem-1",
+    "content": "Rahul is the Lead Frontend Engineer on Project Titan. His critical deadline for the Dashboard Redesign and API integration is October 24th.",
+    "category": "Deadline",
+    "tags": [
+      "Rahul",
+      "Deadline",
+      "Project Titan",
+      "Frontend"
+    ],
+    "createdAt": "2026-10-01T09:00:00.000Z",
+    "source": "manual",
+    "pinned": true
+  },
+  {
+    "id": "mem-2",
+    "content": "Client Acme Corp: CEO strictly insists on dark mode interfaces and expects a 3-minute Loom video recap every Friday before 4 PM EST.",
+    "category": "Client",
+    "tags": [
+      "Acme Corp",
+      "Client",
+      "Preferences",
+      "Loom"
+    ],
+    "createdAt": "2026-10-02T11:15:00.000Z",
+    "source": "manual",
+    "pinned": true
+  },
+  {
+    "id": "mem-3",
+    "content": "Project Titan: Production rollout milestone is set for November 15th, with staging sign-off scheduled for November 12th.",
+    "category": "Project",
+    "tags": [
+      "Project Titan",
+      "Release",
+      "Milestone",
+      "Production"
+    ],
+    "createdAt": "2026-10-03T14:20:00.000Z",
+    "source": "manual",
+    "pinned": false
+  },
+  {
+    "id": "mem-4",
+    "content": "Sarah Jenkins (PM): Prefers asynchronous sprint updates via Slack #sprint-titan and avoids Monday morning 9 AM meetings.",
+    "category": "Personal",
+    "tags": [
+      "Sarah",
+      "Team",
+      "Preferences",
+      "Meetings"
+    ],
+    "createdAt": "2026-10-04T16:45:00.000Z",
+    "source": "manual",
+    "pinned": false
+  },
+  {
+    "id": "mem-5",
+    "content": "Tech Stack Guidelines: Backend runs Node.js with PostgreSQL; frontend is React 19 + Tailwind CSS with strict TypeScript typing.",
+    "category": "Project",
+    "tags": [
+      "Tech Stack",
+      "PostgreSQL",
+      "React",
+      "TypeScript"
+    ],
+    "createdAt": "2026-10-05T08:30:00.000Z",
+    "source": "manual",
+    "pinned": false
+  }
+]

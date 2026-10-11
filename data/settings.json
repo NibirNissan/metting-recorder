@@ -1,0 +1,101 @@
+{
+  "llm": {
+    "systemPrompt": "You are an expert executive meeting assistant and personal Second Brain. Listen carefully to audio recordings, transcribe everything with high accuracy in Bengali, English, or Banglish, and extract executive summaries, strategic decisions, and actionable task assignments.",
+    "starter": {
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "apiKey": "",
+      "useGlobalKey": true,
+      "temperature": 0.2,
+      "maxTokens": 4096
+    },
+    "pro": {
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "apiKey": "",
+      "useGlobalKey": true,
+      "temperature": 0.2,
+      "maxTokens": 8192
+    },
+    "business": {
+      "provider": "gemini",
+      "model": "gemini-3.1-pro-preview",
+      "apiKey": "",
+      "useGlobalKey": true,
+      "temperature": 0.15,
+      "maxTokens": 16384
+    },
+    "activeProvider": "gemini",
+    "selectedModel": "gemini-3.8-flash",
+    "temperature": 0.2
+  },
+  "voice": {
+    "sttProvider": "gemini-native",
+    "sttModel": "gemini-3.8-flash",
+    "sttApiKey": "AIzaSy••••••••••••••••••••••••••••",
+    "sttEndpointUrl": "",
+    "ttsProvider": "elevenlabs",
+    "ttsModel": "eleven_multilingual_v2",
+    "ttsApiKey": "eleven_•••••••••••••••••••••••••••",
+    "ttsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "ttsEndpointUrl": ""
+  },
+  "storage": {
+    "provider": "cloudflare-r2",
+    "bucketName": "voice-meetings-r2-prod",
+    "endpointUrl": "https://accountid.r2.cloudflarestorage.com",
+    "accessKeyId": "r2_key_••••••••••••••••",
+    "secretAccessKey": "r2_sec_••••••••••••••••••••••••••••••••",
+    "region": "auto"
+  },
+  "deviceGateway": {
+    "esp32Enabled": true,
+    "gatewayUrl": "https://api.assistant.internal/api/gateway/esp32",
+    "deviceToken": "esp32_hw_7a9f3b1e84c20d65",
+    "audioSampleRate": 16000,
+    "autoTranscribe": true
+  },
+  "packages": {
+    "starter": {
+      "name": "Starter Free",
+      "priceBdt": 0,
+      "storage": "50MB",
+      "features": ["Standard Gemini Flash", "50MB Audio Storage", "Community Support", "Standard Dialects"]
+    },
+    "pro": {
+      "name": "Pro Executive",
+      "priceBdt": 499,
+      "storage": "2GB",
+      "features": [
+        "High-speed Bengali reasoning",
+        "2GB Cloud Storage (R2)",
+        "Priority Multimodal Transcription",
+        "WhatsApp / Slack Digest",
+        "Permanent Second Brain"
+      ]
+    },
+    "business": {
+      "name": "Business Power",
+      "priceBdt": 1499,
+      "storage": "Unlimited",
+      "features": [
+        "Unlimited Audio Storage",
+        "Multi-speaker Diarization",
+        "Custom Domain Vocabularies",
+        "Dedicated API Node Throughput",
+        "24/7 Dedicated Support"
+      ]
+    }
+  },
+  "promos": [
+    { "code": "LAUNCH50", "discountPercent": 50, "active": true },
+    { "code": "EID2026", "discountPercent": 30, "active": true }
+  ],
+  "registry": [
+    { "serial": "XZ-8842", "email": "dreamcrafter99@gmail.com", "plan": "pro", "status": "online", "battery": 94, "lastPing": "Just now" },
+    { "serial": "ESP-7721", "email": "sarah.pm@titan.io", "plan": "pro", "status": "online", "battery": 88, "lastPing": "4 mins ago" },
+    { "serial": "XZ-1092", "email": "david.eng@techcorp.bd", "plan": "business", "status": "idle", "battery": 67, "lastPing": "42 mins ago" },
+    { "serial": "ESP-4402", "email": "elena.design@studio.com", "plan": "starter", "status": "offline", "battery": 12, "lastPing": "2 days ago" },
+    { "serial": "XZ-5519", "email": "rahul.frontend@titan.io", "plan": "pro", "status": "online", "battery": 91, "lastPing": "12 mins ago" }
+  ]
+}

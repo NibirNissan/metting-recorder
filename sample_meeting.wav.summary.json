@@ -1,0 +1,24 @@
+{
+  "language_detected": "Banglish (Bengali & English)",
+  "transcript": "Hello team, welcome to today's sprint planning. Rahul, tumi ki payment gateway integration ta complete korechho? We need that ready by Thursday. Priya will handle the mobile responsive UI testing. Let's finalize the deployment for next Sunday.",
+  "executive_summary": "The team conducted a sprint planning session to check progress on the payment gateway integration, assign mobile responsive UI testing, and schedule the upcoming deployment.",
+  "key_points": [
+    "Payment gateway integration needs to be ready by Thursday.",
+    "Mobile responsive UI testing has been assigned to Priya.",
+    "Deployment is scheduled for next Sunday."
+  ],
+  "action_items": [
+    {
+      "task": "Complete payment gateway integration by Thursday",
+      "assignee": "Rahul"
+    },
+    {
+      "task": "Handle mobile responsive UI testing",
+      "assignee": "Priya"
+    },
+    {
+      "task": "Finalize deployment for next Sunday",
+      "assignee": "unassigned"
+    }
+  ]
+}

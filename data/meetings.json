@@ -1,0 +1,83 @@
+[
+  {
+    "id": "meeting-titan-sprint-42",
+    "title": "Project Titan: Sprint 42 Architecture & DB Migration",
+    "createdAt": "2026-10-06T14:30:00.000Z",
+    "fileName": "sample_meeting.wav",
+    "language_detected": "English & Banglish",
+    "executive_summary": "Sprint 42 kickoff focusing on database migration to PostgreSQL, backend API rate-limiting resolution led by David, and UI component revamp led by Elena.",
+    "transcript": "[00:00] Sarah: Team, let's kick off Sprint 42. Our main goal is the PostgreSQL migration and finalizing the dashboard designs.\n[00:15] David: On the backend side, I will complete the database schema migration and fix the 429 rate limit issue by Wednesday.\n[00:32] Elena: The UI system is 80% done. I will deliver the responsive mobile components and user settings screens by Thursday.\n[00:48] Sarah: Awesome. David, make sure automated tests pass before staging deploy. Elena, sync with Rahul on the frontend integration.\n[01:05] David: Understood. I'll also add Redis caching for session tokens.\n[01:18] Sarah: Perfect. Let's aim for staging verification by Friday afternoon.",
+    "key_points": [
+      "David leading PostgreSQL schema migration and 429 rate limit fixes by Wednesday.",
+      "Elena delivering responsive mobile components and user settings by Thursday.",
+      "Elena to sync directly with Rahul on frontend integration.",
+      "David adding Redis token caching to prevent session latency.",
+      "Target staging release scheduled for Friday afternoon."
+    ],
+    "action_items": [
+      {
+        "task": "Complete PostgreSQL schema migration and fix 429 rate limit issue",
+        "assignee": "David",
+        "status": "in-progress"
+      },
+      {
+        "task": "Deliver responsive mobile components and user settings screens",
+        "assignee": "Elena",
+        "status": "pending"
+      },
+      {
+        "task": "Coordinate with Rahul on frontend component contract",
+        "assignee": "Elena",
+        "status": "pending"
+      },
+      {
+        "task": "Add Redis token caching layer before staging deploy",
+        "assignee": "David",
+        "status": "pending"
+      },
+      {
+        "task": "Run end-to-end regression tests on staging environment",
+        "assignee": "Sarah",
+        "status": "pending"
+      }
+    ],
+    "modelUsed": "gemini-3.8-flash",
+    "audioUrl": "/api/sample-audio",
+    "isStarred": true
+  },
+  {
+    "id": "meeting-acme-client-sync",
+    "title": "Acme Corp: Q4 Roadmap & Deliverables Sync",
+    "createdAt": "2026-10-04T10:00:00.000Z",
+    "fileName": "acme_sync_oct4.m4a",
+    "language_detected": "English",
+    "executive_summary": "Quarterly review with Acme Corp stakeholders. Confirmed dark-mode dashboard preference, weekly Loom video recaps requirement, and November 15 release milestone.",
+    "transcript": "[00:00] Account Lead: Welcome everyone. Acme Corp stakeholders requested an update on our Q4 deliverables.\n[00:14] Client Rep (Tom): We love the prototype. Just remember our CEO strictly insists on dark mode and wants 3-minute Loom video recaps before 4 PM every Friday.\n[00:35] Sarah: Noted. We will keep the default theme dark and establish the Friday Loom routine.\n[00:50] Client Rep (Tom): Excellent. Our executive sign-off meeting is set for November 12th ahead of the November 15th launch.",
+    "key_points": [
+      "Acme Corp CEO strictly prefers dark mode interfaces as default.",
+      "Mandatory 3-minute weekly Loom video recaps due before Friday 4 PM EST.",
+      "Executive sign-off deadline scheduled for November 12th.",
+      "Target production launch date confirmed for November 15th."
+    ],
+    "action_items": [
+      {
+        "task": "Enforce dark mode default theme for Acme Corp client build",
+        "assignee": "Elena",
+        "status": "done"
+      },
+      {
+        "task": "Set calendar reminder for weekly Friday 3 PM Loom video recording",
+        "assignee": "Sarah",
+        "status": "done"
+      },
+      {
+        "task": "Prepare release notes for November 12th executive sign-off",
+        "assignee": "Sarah",
+        "status": "pending"
+      }
+    ],
+    "modelUsed": "gemini-3.8-flash",
+    "audioUrl": null,
+    "isStarred": false
+  }
+]

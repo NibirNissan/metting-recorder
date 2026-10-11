@@ -1,0 +1,6 @@
+{
+  "name": "AI Voice Meeting Assistant - Bengali & English",
+  "description": "Commercial mobile-first Voice Meeting Assistant and Second Brain with multimodal speech transcription, persistent memory hub, hardware pod status, and admin CMS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
